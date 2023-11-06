@@ -1,0 +1,72 @@
+
+div.hero{
+  margin-top: 3rem;
+}
+
+div.hero .parent-avatar.flex {
+  align-items: end;
+  gap: 0.6rem;
+  min-height: 88px;
+}
+
+
+
+div.hero .left-section{
+    flex-grow: 1;
+}
+
+div.hero .icon-verified{
+  color: var(--blue);
+  font-size: 1.1rem;
+  margin-bottom: 0.3rem;
+  
+}
+
+div.hero  .avatar {
+  width: 88px;
+  
+
+  border-radius: 50%;
+  border: 1px solid darkorange;
+  padding: 1px;
+  box-shadow: 2px 2px 40px rgba(203, 200, 200, 0.586) inset;
+}
+
+div.hero h1.title{
+  font-size: 2.85rem;
+  line-height: 3.3rem;
+  margin: 24px 0;
+  color: var(--title);
+}
+
+div.hero p.sub-title{
+  color: var(--subtitle);
+  font-size: 0.9rem;
+  line-height: 1.65rem;
+  margin-bottom: 32px;
+}
+
+div.hero .all-icons{
+  color: var(--subtitle);
+  gap: 1.5rem;
+  font-size: 1.3rem;
+}
+
+div.hero .all-icons .icon:hover{
+  font-size: 1.4rem;
+  color: var(--title);
+  transition: .3s;
+  cursor: pointer;
+}
+
+
+div.hero .animation {
+  width: 100%;
+  translate: 100px 55px;
+}
+
+@media (max-width: 1250px) {
+  div.hero .animation {
+    display: none;
+  }
+}
